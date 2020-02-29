@@ -178,6 +178,10 @@ hr.small {
     background-color: black;
 }
 
+.header a {
+  padding: 15px;
+}
+
 /* About */
 
 .about {
