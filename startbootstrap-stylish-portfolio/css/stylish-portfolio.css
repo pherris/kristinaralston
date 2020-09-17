@@ -115,22 +115,27 @@ h6 {
 }
 
 .fullwidthbg {
-  min-height: 10rem;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/lesly-juarez-DFtjXYd5Pto-unsplash.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/change-671374_1920.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+@media (min-width: 768px) {
+  .fullwidthbg {
+    height: 60vh;
+  }
+}
+
 @media (min-width: 992px) {
   .fullwidthbg {
-    height: 100vh;
+    height: 80vh;
   }
 }
 
@@ -143,7 +148,7 @@ h6 {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #35ace6;
+  background: #233C6C;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -222,7 +227,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #35ace6;
+  color: #233C6C;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -306,7 +311,7 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(53, 172, 230, 0.9);
+    background-color: rgba(35, 60, 108, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
@@ -323,33 +328,33 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #35ace6;
+  background-color: #233C6C;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
-  background-color: #1a93ce;
+  background-color: #172745;
   text-decoration: none;
 }
 
 a {
-  color: #35ace6;
+  color: #233C6C;
 }
 
 a:hover, a:focus, a:active {
-  color: #1a93ce;
+  color: #172745;
 }
 
 .btn-primary {
-  background-color: #35ace6 !important;
-  border-color: #35ace6 !important;
+  background-color: #233C6C !important;
+  border-color: #233C6C !important;
   color: #fff !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #1a93ce !important;
-  border-color: #1a93ce !important;
+  background-color: #172745 !important;
+  border-color: #172745 !important;
 }
 
 .btn-secondary {
@@ -365,6 +370,7 @@ a:hover, a:focus, a:active {
 
 .btn-dark {
   color: #fff !important;
+  background-color: #94B6FA;
 }
 
 .btn {
@@ -373,11 +379,11 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #35ace6 !important;
+  background-color: #233C6C !important;
 }
 
 .text-primary {
-  color: #35ace6 !important;
+  color: #233C6C !important;
 }
 
 .text-secondary {
